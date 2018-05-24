@@ -21,7 +21,8 @@
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
 
-        <activity android:name=".Skins"></activity>
+        <activity android:name=".Skins" />
+        <activity android:name=".DefaultSkins"></activity>
     </application>
 
 </manifest>

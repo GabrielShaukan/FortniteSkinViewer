@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".Skins">
 
     <Button
-        android:id="@+id/btnSprays"
+        android:id="@+id/btnLegendarySkins"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="265dp"
         android:layout_height="51dp"
@@ -16,16 +16,16 @@
         android:layout_marginTop="16dp"
         android:backgroundTint="#A2FFFF"
         android:fontFamily="sans-serif-condensed"
-        android:text="Sprays"
+        android:text="Legendary Skins"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSkins" />
+        app:layout_constraintTop_toBottomOf="@+id/btnEpicSkins" />
 
     <Button
-        android:id="@+id/btnLoadingScreens"
+        android:id="@+id/btnEpicSkins"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="265dp"
         android:layout_height="51dp"
@@ -34,16 +34,16 @@
         android:layout_marginTop="16dp"
         android:backgroundTint="#A2FFFF"
         android:fontFamily="sans-serif-condensed"
-        android:text="Loading Screens"
+        android:text="Epic Skins"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnGliders" />
+        app:layout_constraintTop_toBottomOf="@+id/btnRareSkins" />
 
     <Button
-        android:id="@+id/Pickaxes"
+        android:id="@+id/btnRareSkins"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="265dp"
         android:layout_height="51dp"
@@ -52,16 +52,16 @@
         android:layout_marginTop="16dp"
         android:backgroundTint="#A2FFFF"
         android:fontFamily="sans-serif-condensed"
-        android:text="Pickaxes"
+        android:text="Rare Skins"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnLoadingScreens" />
+        app:layout_constraintTop_toBottomOf="@+id/btnUncommonSkins" />
 
     <Button
-        android:id="@+id/btnSkins"
+        android:id="@+id/btnUncommonSkins"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="265dp"
         android:layout_height="51dp"
@@ -70,16 +70,16 @@
         android:layout_marginTop="16dp"
         android:backgroundTint="#A2FFFF"
         android:fontFamily="sans-serif-condensed"
-        android:text="Skins"
+        android:text="Uncommon Skins"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Pickaxes" />
+        app:layout_constraintTop_toBottomOf="@+id/btnDefaultSkins" />
 
     <Button
-        android:id="@+id/btnGliders"
+        android:id="@+id/btnDefaultSkins"
         style="@style/Widget.AppCompat.Button"
         android:layout_width="265dp"
         android:layout_height="51dp"
@@ -88,48 +88,11 @@
         android:layout_marginTop="16dp"
         android:backgroundTint="#A2FFFF"
         android:fontFamily="sans-serif-condensed"
-        android:text="Gliders"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnEmotes" />
-
-    <Button
-        android:id="@+id/btnEmotes"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_width="265dp"
-        android:layout_height="51dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
-        android:backgroundTint="#A2FFFF"
-        android:fontFamily="sans-serif-condensed"
-        android:text="Emotes"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnBackblings" />
-
-    <Button
-        android:id="@+id/btnBackblings"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_width="265dp"
-        android:layout_height="51dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="16dp"
-        android:backgroundTint="#A2FFFF"
-        android:fontFamily="sans-serif-condensed"
-        android:text="Backblings"
+        android:text="Default Skins"
         android:textAppearance="@style/TextAppearance.AppCompat.Body2"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
 </android.support.constraint.ConstraintLayout>
